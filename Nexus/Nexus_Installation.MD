@@ -63,3 +63,8 @@ Unable to access nexus URL?
 - [x] [Secure your Jenkins Server](https://youtu.be/19FmJumnkDc)
 - [x] [Jenkins Plugin Installation](https://youtu.be/p_PqPBbjaZ4)
 - [x] [Jenkins Master-Slave Configuration](https://youtu.be/hwrYURP4O2k)
+
+
+### To check which nexus version is installed
+
+curl --include --silent http://localhost:8081/ | grep Server
